@@ -1,0 +1,149 @@
+/*!
+ Theme Name:   XposeNews
+ Theme URI:    https://walkerwp.com/xposenews/
+ Description:  This is the child theme for walkerpress, XposeNews is the magazine, news wordpress free theme which is suitable for blog, magazine, news portal, personal blog, travel blogs and magazine.
+ Author:       WalkerWP
+ Author URI:   https://walkerwp.com/
+ Template:     walkerpress
+ Version:      1.0.1
+ Tested up to: 6.0
+ Requires PHP: 5.6
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, grid-layout, blog, news, two-columns, three-columns, footer-widgets, sticky-post
+ Text Domain:  xposenews
+*/
+.featured-post-box, .category-post-wraper .category-post-box, .category-post-wraper .category-post-2 .category-post-content, .frontpage-content-block .walkerpress-widget-content, .sidebar-widget-block, .walkerwp-wraper.inner-wraper main#primary .content-layout.list-layout article, .sidebar-block section.widget, .missed-post-box, .single article, .page article, .single .comments-area, .related-posts, .walkerwp-wraper.inner-wraper main#primary .content-layout.grid-layout article, .walkerwp-wraper.inner-wraper main#primary .content-layout.full-layout article, .ticker-layout-2 .news-ticker-box span.focus-news-box, .news-ticker-box, .wc-author-box, .frontpage-sidebar-block .walkerpress-widget-content, main#primary section.no-results.not-found, .search.search-results main#primary article, section.error-404.not-found{
+    border-top: 3px solid var(--primary-color) !important;
+    padding: 0 40px 40px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 13%)
+
+}
+.news-ticker-box{
+    border-top: 0!important;
+}
+.walkerwp-grid-1, .walkerwp-grid-2, .walkerwp-grid-3, .walkerwp-grid-4, .walkerwp-grid-5, .walkerwp-grid-6, .walkerwp-grid-7, .walkerwp-grid-8, .walkerwp-grid-9, .walkerwp-grid-10, .walkerwp-grid-11, .walkerwp-grid-12 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.walkerwp-wraper.inner-wraper main#primary .content-layout.grid-layout article,
+.sidebar-block section.widget,
+.walkerwp-wraper.inner-wraper main#primary article,
+.wc-author-box,
+.walkerwp-wraper.inner-wraper main#primary .content-layout.list-layout article,
+.walkerwp-wraper.inner-wraper main#primary .content-layout.full-layout article{
+    padding: 40px;
+}
+.featured-post-grid, .related-post-list {
+    grid-gap: 40px;
+
+}
+.box-title span{
+    background: transparent;
+    color: var(--primary-color);
+    font-size: 24px;
+    padding: 15px;
+}
+.latest-post .box-title, .popular-posts .box-title, .sidebar-block .block-header, .box-title{
+    text-align: center;
+}
+.latest-post .box-title, .popular-posts .box-title, .sidebar-block .block-header, .box-title {
+    border-bottom: 2px solid var(--primary-color);
+}
+.missed-post-box .post-thumbnail,
+.featured-post-box .post-thumbnail{
+    height: 300px;
+}
+.banner-layout-1 .walkerwp-grid-3.tabs-section ul.tabs {
+    border-top: 3px solid var(--primary-color);
+}
+.walkerwp-wraper.inner-wraper main#primary .content-layout.grid-layout{
+    grid-gap: 30px;
+}
+.walkerwp-container{
+    padding: 0 30px;
+}
+.walkerwp-wraper.inner-wraper main#primary {
+    padding: 0 30px 0 0;
+}
+.walkerwp-grid-1, .walkerwp-grid-2, .walkerwp-grid-3, .walkerwp-grid-4, .walkerwp-grid-5, .walkerwp-grid-6, .walkerwp-grid-7, .walkerwp-grid-8, .walkerwp-grid-9, .walkerwp-grid-10, .walkerwp-grid-11, .walkerwp-grid-12{
+    padding-left: 30px;
+}
+.walkerwp-wraper.category-post-wraper {
+    padding: 15px 0;
+}
+.walkerwp-wraper.banner-layout {
+    padding: 30px 0 10px;
+}
+.sidebar-block, .frontpage-sidebar-block {
+    padding: 0;
+}
+ul.tabs li:last-child {
+    border-left: 2px solid var(--primary-color);
+}
+
+ul.tabs li {
+    border-bottom: 2px solid var(--primary-color);
+}
+.walkerwp-wraper.inner-wraper main#primary .content-layout.grid-layout article {
+    margin: 0 0 30px;
+}
+
+.frontpage-content-block.walkerwp-grid-8.sidebar-activated {
+    padding-left: 0;
+}
+.walkerpress-custom-header {
+    text-align: center;
+    padding: 10px 15px;
+}
+.walkerpress-custom-header span {
+    color: var(--primary-color);
+    background: transparent;
+}
+.three-category.featured-list-layout .walkerwp-grid-4 .post-box.featured-post .post-thumbnail{
+    height: 320px;
+}
+.frontpage-content-block.walkerwp-grid-12 {
+    width: 100%;
+    padding: 0;
+}
+.walkerwp-wraper.ticker-news-wraper .ticker-header:after{
+    display: none;
+}
+.walkerwp-wraper.main-header .walkerwp-container {
+    justify-content: space-around;
+}
+.walkerwp-grid-3.sidebar-block .walkerpress-custom-header {
+    text-align: left;
+    padding: 0;
+}
+.walkerwp-grid-3.sidebar-block .walkerpress-custom-header span {
+    padding: 0;
+}
+header.header-layout-1 .sidebar-slide-button {
+    right: 48px;
+}
+.category-two.style-2 li.post-box.featured-post .post-thumbnail{
+    width: 100%;
+}
+.sidebar-widget-block.popular-post .walkerpress-custom-header,
+.sidebar-widget-block.latest-post .walkerpress-custom-header{
+    padding-top: 20px;
+}
+@media(max-width: 1024px){
+     .walkerwp-wraper.inner-wraper main#primary {
+        padding: 0;
+    }
+}
+@media(max-width: 767px){
+    .site-branding h1.site-title {
+        font-size: 60px !important;
+    }
+
+}
+
+@media(max-width: 480px){
+    .site-branding h1.site-title {
+        font-size: 40px !important;
+    }
+}
